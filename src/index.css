@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand{
+  color:purple;
+}
+.list-group-item:hover{
+  text-decoration: underline;
+}
+.navbar-brand:hover{
+  color: rgb(116, 5, 116);
+}
+.link{
+  text-decoration: none;
+}
