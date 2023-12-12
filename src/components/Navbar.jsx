@@ -17,12 +17,12 @@ const Navbar = () => {
     </div>
 </nav>
 
-<nav className='mt-1 border p-1 mb-1'>
-    <ul className="d-flex justify-content-around fs-5">
-        <Link to="/electronic"><li className="list-group-item">Electronics</li></Link>
-        <Link to="/men"><li className="list-group-item">Men's Wear</li></Link>
-        <Link to="/women"><li className="list-group-item">Women's Wear</li></Link>
-        <Link to="/jwellery"><li className="list-group-item">Jwellery</li></Link>
+<nav className=' border p-1 mb-1 bg-dark '>
+    <ul className="d-flex justify-content-around mt-1 fs-5 p-2">
+        <Link to="/electronic"><li className="list-group-item text-white">Electronics</li></Link>
+        <Link to="/men"><li className="list-group-item text-white">Men's Wear</li></Link>
+        <Link to="/women"><li className="list-group-item text-white">Women's Wear</li></Link>
+        <Link to="/jwellery"><li className="list-group-item text-white">Jwellery</li></Link>
     </ul>
 </nav>
 </>

@@ -29,7 +29,7 @@ const handleAdd = (product) => {
 };
   return (
     <>
-     <div className="card mt-2" style={{width:"18rem", height:"26rem"}}>
+     <div className="card mt-3" style={{width:"18rem", height:"26rem", background:"pink"}}>
   <div className="image text-center">
   <img src={product.image} className="card-img-top mt-1" style={{width:"200px", height:"200px"}} alt="..."/>
   </div>

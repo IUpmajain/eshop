@@ -34,7 +34,7 @@ const Cart = () => {
           </div>
           <div className="card-body">
             <h1 className="card-title pricing-card-title">${total.toFixed(2)}</h1>
-            <button className="pay-btn btn btn-primary">Pay Now</button>
+            <a href='https://paytm.com/online-payments' target='_blank' className="pay-btn btn btn-primary">Pay Now</a>
           </div>
         </div>
       </div>
